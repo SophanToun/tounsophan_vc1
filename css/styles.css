@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    padding: 20px;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+img{
+    width: 20%;
+    height: 40vh;
+}
+.sub-content{
+    display: flex;
+    background-color: #126b6d;
+    padding: 30px;
+}
+.text{
+    margin-left: 30px;
+    color: white;
+}
+h2{
+    background-color: #66e7e7;
+    margin: 0;
+    padding: 20px;
+}
+h3{
+    text-decoration: underline;
+}
+.support{
+    color: #fff;
+}
+.contact{
+    background-color: teal;
+    width: 60%;
+    padding: 40px;
+}
+.Hardskill{
+    background-color: #3fa8a8;
+    width: 60%;
+    padding: 40px;
+}
+.language{
+    background-color: #486e6d;
+    width: 60%;
+    padding: 40px;
+}
+.interest{
+    background-color: #29bdd1;
+    width: 60%;
+    padding: 40px;
+}
+.right-part{
+    color: black;
+}
+
+
+.support{
+    display: flex;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: #5fe4ce;
+
+}
+ul li a:hover{
+    color: white;
+}
