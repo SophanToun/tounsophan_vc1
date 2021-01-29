@@ -155,25 +155,25 @@ ul li a:hover{
       opacity: 0.7;
   }
   .fa-facebook {
-    background: #3B5998;
+    background: black;
     color: white;
     height: 60px;
     width: 60px;
 }
 .fa-instagram {
-    background: #125688;
+    background: black;
     color: white;
     height: 60px;
     width: 60px;
 }
 .fa-skype{
-    background:blue;
+    background:black;
     color: white;
     height: 60px;
     width: 60px;
 }
 .fa-reddit {
-    background: #ff5700;
+    background: black;
     color: white;
     height: 60px;
     width: 60px;
@@ -189,19 +189,11 @@ button{
 .teacher{
     width: 67%;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     float: right;
     
 }
-.n, .r{
-    width: 0%;
-    margin: 10px;
-    float: right;
-}
-.n{
-    
-    padding: 40%;
-}
+
 img{
     width: 50%;
     height: 30vh;
