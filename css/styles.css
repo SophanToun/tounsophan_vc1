@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -5,30 +9,50 @@ body{
 
 ul{
     display: flex;
-    justify-content: space-around;
-    background-color: teal ;
-    padding: 20px;
-    margin: 0;
+    
 }
-ul li{
+li{
     list-style: none;
+    padding: 20px;
+    
+    
 }
-ul li a{
+a{
     text-decoration: none;
+    color: black;
+    font-weight:bold;
 }
-img{
-    width: 20%;
-    height: 40vh;
+
+/*.sub-content img content */
+.img-content{
+    width:40% !important;
+}
+.img-content img{
+    width: 100%;
 }
 .sub-content{
     display: flex;
     background-color: #126b6d;
     padding: 30px;
+
 }
 .text{
+    text-align: center;
+    width:60%;
     margin-left: 30px;
     color: white;
 }
+.text h1{
+    font-size: 120px;
+}
+.text p{
+    font-size: 20px;
+}
+.text .box-description{
+    margin: 0 auto;
+    width:50%;
+}
+/* end .sub-content  */
 h2{
     background-color: #66e7e7;
     margin: 0;
@@ -37,31 +61,34 @@ h2{
 h3{
     text-decoration: underline;
 }
-.support{
-    color: #fff;
-}
+
 .contact{
-    background-color: teal;
-    width: 60%;
+    background-color: #59cfcf;
+    width: 80%;
     padding: 40px;
 }
 .Hardskill{
-    background-color: #3fa8a8;
-    width: 60%;
+    margin: 10px;
+    margin: 0; 
+    background-color: #43c09b;
+    width: 80%;
     padding: 40px;
+    
 }
 .language{
-    background-color: #486e6d;
-    width: 60%;
+    margin-top: 10%;
+    background-color: #3eafad;
+    width: 80%;
     padding: 40px;
 }
 .interest{
-    background-color: #29bdd1;
-    width: 60%;
-    padding: 40px;
+    margin-top: 10%;
+    background-color: #7995cf;
+    width: 80%;
+    padding: 50px;
 }
-.right-part{
-    color: black;
+.right-part p{
+    padding: 7px;
 }
 
 
@@ -84,13 +111,195 @@ ul li a:hover{
 }
 
 .skills {
-  text: 60%; background-color: #808080;}-align: right;
+  background-color: #808080;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
 }
 
-.html {width: 90%; background-color: #3fe91d;}
-.css {width: 80%; background-color: #12e41c;}
-.js {width: 65%; background-color: #07b842;}
-.php {width
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background: #a6bea6;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    
+}
+.app{
+   
+    margin-top: 20px;
+    margin-bottom:20px ;
+    margin-left:300px ;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+   
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+.fa-skype{
+    background:blue;
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+    height: 60px;
+    width: 60px;
+  }
+
+button{
+       height: 50px;
+       width: 150px;
+       margin: 30px;
+       background:turquoise;
+       border-radius: 10px;
+}
+.teacher{
+    width: 67%;
+    display: flex;
+    padding: 20px;
+    float: right;
+    
+}
+.n, .r{
+    width: 0%;
+    margin: 10px;
+    float: right;
+}
+.n{
+    
+    padding: 40%;
+}
+img{
+    width: 50%;
+    height: 30vh;
+}
+.text{
+    color: black;
+}
+
+.thirdfourth{
+    background-color: teal;
+    text-align: center;
+    display: flex;
+}
+.allpic{
+    display: flex;
+}
+.one{
+    margin-left: 30px;
+}
+.app{
+    display: flex;
+}
+.whole{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.p1{
+    height: 50vh;
+    width: 80%;
+    padding: 20px;
+    margin-left: 10%;
+}
+.p2{
+    height: 50vh;width: 80%;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.c2{
+    background-color: teal;
+    height: 50vh;
+}
+.c1{
+    display: flex;
+}
+.c2{
+    display: flex;
+}
+.image{
+    position: relative;
+    text-align: center;
+}
+form{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 5%;
+}
+#hello{
+    width: 500px;
+    height: 6vh;
+
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    background-color: lightblue;
+    padding: 2%;
+    margin-bottom: 5px;
+}
+#heh{
+    width: 500px;
+    height: 20vh;
+}
+.full{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background: black;
+    
+    
+}
+#submit{
+    width: 250px;
+    height: 5vh;
+    cursor: pointer;
+    text-align: center;
+   margin-left: 25%;
+   border-radius: 5px;
+   background-color: #6565e4ec;
+   color: white;
+}
+.footer1{
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+}
+.right-part h3{
+    text-decoration: none;
+    color:blue;
+}
