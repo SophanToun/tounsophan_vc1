@@ -295,3 +295,34 @@ h2{
     text-decoration: none;
     color:blue;
 }
+@media(max-width:900px){
+    /* index */
+    .sub-content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .img-content,text{
+        width: 100%;
+    }
+    /* education */
+    .support{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .start{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .Hardskill,.language,interest{
+        width: 100%;
+    }
+    /* hometown */
+    .map iframe{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
